@@ -1,0 +1,13 @@
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.nav-heading{
+    color: #000000;
+    margin-right: 4%;
+}
+.icons{
+    margin: 1%;
+}

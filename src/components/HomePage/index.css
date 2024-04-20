@@ -1,0 +1,550 @@
+.home-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.header-container{
+    background-color: #f7f2ab;
+}
+.image-heading-container{
+    background-image: url('https://t3.ftcdn.net/jpg/02/45/77/62/360_F_245776292_KjTmy7E9bYhpZxfikW1YLbZrG2EPoRay.jpg');
+    height: 60vh;
+    background-size: cover;
+    margin-bottom: 30px;
+    padding:5%;
+}
+.welcome{
+    color: aliceblue;
+    font-size: 17px;
+}
+.main-heading{
+    color: aliceblue;
+}
+.des{
+    color: #ebe4e4;
+}
+.book-button{
+    background-color: #265226;
+    color: #ebe4e4;
+    border: 0px;
+    padding: 8px;
+}
+.icon-container{
+    border: 1px solid ;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    margin-top: 5%;
+    
+}
+.different-icons-details{
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width:768px){
+    .different-icons-details{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:768px){
+    .image-heading-container{
+        background-image: url('https://t3.ftcdn.net/jpg/02/45/77/62/360_F_245776292_KjTmy7E9bYhpZxfikW1YLbZrG2EPoRay.jpg');
+        height: 65vh;
+        background-size: cover;
+        margin-bottom: 30px;
+        padding:5%;
+    }
+}
+
+.icon-des-container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 3%;
+}
+.des{
+    color: #1e6913;
+    padding-left: 10px;
+    margin-top: 3%;
+}
+.different-treatments-container{
+    background-color: #ffffff;
+}
+.heading{
+    color: #265226;
+    font-size: 28px;
+    text-align: center
+}
+.description{
+    color: #969799;
+    text-align: center;
+}
+.yoga-image{
+    border-radius: 100%;
+    height: 400px;
+    width: 430px;
+}
+.treatment-image-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.treaments{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    margin-top: 16px;
+}
+.treat-image{
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+}
+.treatment-container{
+    width: 50%;
+    margin-left: 4%;
+}
+.treat-name{
+    font-size: 18px;
+}
+.treat-des{
+    font-size: 15px;
+    color: #969799;
+}
+
+.mobile-treatment-image-container{
+    display: none;
+}
+
+.mobile-treatment-container{
+    display: flex;
+    flex-direction: row;
+}
+@media screen and (max-width:768px){
+    .mobile-treatment-image-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .treatment-image-container{
+        display: none;
+    }
+    .treaments{
+        display: flex;
+        flex-direction: column;
+        width: 140px;
+        height: 260px;
+        margin-top: 16px;
+        border: 1px solid #bdb9b9;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .yoga-image{
+        border-radius: 100%;
+        height: 250px;
+        width: 300px;
+        margin-left: 30px;
+    }
+}
+.consultations-container{
+    background-color: #f7f2ab;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.des-consult-container{
+    background-color: #ffffff;
+    margin: 20px;
+    padding: 10px;
+    border-color: #1e6913;
+    border-top: 4px solid;
+    border-radius: 5px;
+    width: 200px;
+    height: 190px;
+}
+.different-consultations{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+.consult-head{
+    font-size: 20px;
+}
+.consult-des{
+    font-size: 13px;
+}
+.consult-image{
+    height: 180px;
+    width: 210px;   
+}
+@media screen and (max-width:768px){
+    .different-consultations{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+.book-consultation-container{
+    background-image: url('https://www.shutterstock.com/image-photo/bottle-on-beach-sunset-260nw-2044646375.jpg');
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.book-heading{
+    color: #1e6913;
+    font-size: 30px;
+}
+@media screen and (max-width:768px){
+    .book-heading{
+        color: #1e6913;
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    
+}
+.approaches-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.different-approches{
+    display: flex;
+    flex-direction: row;
+}
+.mobile-different-approches{
+    display: none;
+}
+
+.approch-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #edebb2;
+    padding: 10px;
+    border-top: 6px solid;
+    border-color: #1e6913;
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+}
+.number{
+    font-size: 20px;
+    border: 0px solid;
+    border-radius: 100%;
+    padding: 10px;
+    background-color: #6fad6a;
+    margin-top: 10%;
+}
+.approach-heading{
+    color: #265226;
+    font-size: 17px;
+    margin-top: 0px;
+    font-weight: bold;
+}
+.approach-des{
+    color: #676b67;
+}
+@media screen and (max-width:768px){
+    .different-approches{
+        display: flex;
+        flex-direction: row;
+    }
+    .approch-container{
+        margin-top: 10px;
+    }
+}
+.mobile-view-carousel-container{
+    display: none;
+}
+@media screen and (max-width:768px){
+    .mobile-different-approches{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .different-approches{
+        display: none;
+    }
+    
+}
+.stories-customers-container{
+    background-color: #f7f2ab;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    margin-top: 10px;
+}
+
+.avatar-container{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+}
+.avatar{
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    margin: 0px;
+}
+.ratingImg{
+    height: 60px;
+    width: 150px;
+}
+.location{
+    color: #bababa;
+}
+.date{
+    color: #bababa;
+}
+.story-container{
+    background-color: #ffffff;
+    width: 300px;
+    height: 310px;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 7px;
+    padding: 0px;
+}
+.quote{
+    font-size: 16px;
+    padding-left: 10px;
+}
+.story-des{
+    font-size: 12px;
+    padding-left: 10px;
+}
+.name-place-container{
+    margin-right: 5%;
+}
+.consulted{
+    background-color: #bceaf5;
+}
+.stories-container{
+    display: flex;
+    flex-direction: row;
+}
+@media screen and (max-width:768px){
+    
+    .story-container{
+        background-color: #ffffff;
+        width: 300px;
+        height: 350px;
+        margin: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 7px;
+        padding: 0px;
+    }
+    .stories-customers-container{
+        display: none;
+    }
+    
+    .mobiles-stories-customers-container{
+        background-color: #f7f2ab;
+        height: 70vh;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (min-width:768px){
+    .mobiles-stories-container{
+        display: none;
+    }
+}
+
+.ayurveda-experts-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.expert-cont{
+    background-color:#edebb2;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+}
+.image-avatar{
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+}
+.experts-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.details{
+    color: #8a8686;
+    font-size: 17px;
+    margin: 1%;
+}
+.book-session-button{
+    width: 400px;
+    border-radius: 10px;
+    background-color: #265226;
+    color: #ebe4e4;
+    border: 0px;
+    padding: 8px;
+}
+.expert-name{
+    font-size: 20px;
+}
+
+
+@media screen and (max-width:768px){
+    .expert-cont{
+        width: 200px;
+    }
+    .book-session-button{
+        width: 200px;
+    }
+    .icons-arrow{
+        font-size: 30px;
+    }
+    .expert-name{
+        font-size: 15px;
+    }
+    .details{
+        font-size: 12px;
+    }
+    .mobile-ayurveda-experts-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+        height: 70vh;
+    }
+    .ayurveda-experts-container{
+        display: none;
+    }
+    
+}
+@media screen and (min-width:768px){
+    .mobile-ayurveda-experts-container{
+        display: none;
+    }
+}
+
+.expertsBtn{
+    text-align: center;
+    border: 1px solid  #305e2f;
+    color: #1e6913;
+    background-color:  #d3f5d3;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.about-details-container{
+    display: flex;
+    flex-direction: row;
+    background-color:#edebb2;
+}
+.details-container{
+    margin: 20px;
+}
+.app-name{
+    color: #305e2f;
+    font-size: 30px;
+}
+.app-des{
+    color:   #989c98;
+    font-size: 17px;
+}
+.app-quote{
+    font-size: 26px;
+    color:  #181c18;
+}
+.app-get{
+    font-size: 25px;
+    color: #181c18;
+}
+.phone-img{
+    height: 500px;
+    width: 600px;
+}
+.store-container{
+    display: flex;
+    flex-direction: row;
+}
+.storesImg{
+    height: 50px;
+    width: 100px;
+    margin: 20px;
+}
+.mobile-view-about-details-container{
+    display: none;
+}
+@media screen and (max-width:768px){
+    .mobile-view-about-details-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        background-color:#edebb2;
+    }
+    .about-details-container{
+        display: none;
+    }
+    .phone-img{
+        height: 300px;
+        width: 300px;
+    }
+    .app-des{
+        text-align: center;
+    }
+    .app-name{
+        text-align: center;
+    }
+    .app-quote{
+        text-align: center;
+    }
+    
+}
+.contact-information-container{
+    background-color: #bfc4be;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.information{
+    color: #305e2f;
+    margin: 0px;
+    padding: 4px;
+}
+.contact-details{
+    color:  #888a88;
+    margin: 0px;
+    padding: 4px;
+}
